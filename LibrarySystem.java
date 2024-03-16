@@ -51,7 +51,7 @@ class Student {
 class Admin {
     Student student = new Student();
     public static String userx = "admin";
-    public static String passx = "1231";
+    public static String passx = "1234";
 
     int checkAdmin(){
         Scanner scanString = new Scanner(System.in);
@@ -107,7 +107,7 @@ class Admin {
 
 class Main {
     //data buku
-    public static String[] idBuku = new String[] {"388c-e681-9152", "ed90-be30-5cdb", "d95e-0c4a-9523"};
+    public static String[] idBuku = new String[] {"388", "209", "300"};
     public static String[] namaBuku = new String[] {"title", "title", "title"};
     public static String[] author = new String[] {"author", "author", "author"};
     public static String[] category = new String[] {"Sejarah", "Sejarah", "Sejarah"};
